@@ -198,3 +198,27 @@ figure{
   }
 
 
+
+  footer{
+      height: 40vh;
+      background-color: #3e0f3e;
+    display: flex;
+    justify-content: space-around;
+    color: pink;
+}
+
+.text-fff{
+    color: aliceblue;
+
+}
+
+.footer-col a{
+    color: pink;
+    text-decoration: none;
+
+}
+
+.footer-col a:hover{
+    color: blue;
+
+}
