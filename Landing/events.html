@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <style>
+        .block{
+            width: 200px;
+            height: 200px;
+            background: red;
+            margin-left: 20vw;
+            display: inline-block;
+        }
+        .green{
+            background: green;
+        }
+
+        .hide{
+            /* display: none; */
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+
+
+    <h1>hi there</h1>
+    <section class="container">
+
+        <div class="block" id="b1">
+            <h1>Hi</h1>
+        </div>
+        <div class="block green" id="b2"></div>
+    </section>
+    
+    <script>
+        let age = 30;
+        const block1 = document.getElementById("b1");
+        const block2 = document.getElementById("b2");
+
+        function printAge(){
+            age = age + 1;
+            console.log(age);
+
+        }
+
+        function changeColor(){
+            block2.classList.toggle("green");
+
+        }
+
+        function hideb1(){
+            block1.classList.toggle("hide");
+
+        }
+
+        block2.addEventListener("click",function(){
+            alert("the elemnt will change");
+            hideb1();
+
+        });
+
+
+
+
+        printAge();
+
+
+
+        
+        
+        
+        //var, const, let
+
+
+        //data types
+        /*
+        Number, String, Bool, Null, Undefined
+
+
+        */
+
+        //function
+
+        
+        
+    </script>
+    
+</body>
+</html>
