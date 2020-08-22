@@ -1,0 +1,59 @@
+.foot{
+    position: fixed;
+    bottom: 0;
+    /* width: 100%; */
+
+}
+.img1{
+    background-image: url("../img/img1.jpg");
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    margin: 10px;
+}
+.navbar{
+    position: sticky;
+    top:0;
+    z-index: 500;;
+}
+
+
+/* $oxford-blue: #191d32ff;
+$space-cadet: #282f44ff;
+$dark-liver: #453a49ff;
+$catawba: #6d3b47ff;
+$magenta-dye: #ba2c73ff; 
+
+
+$rosso-corsa: #d00000ff;
+$selective-yellow: #ffba08ff;
+$green-blue-crayola: #3f88c5ff;
+$prussian-blue: #032b43ff;
+$pine-green: #136f63ff;
+
+*/
+
+.bg-blue, .bg-blue a{
+    background-color: blue !important;
+    color: orange !important;
+}
+
+
+.bg-dark-1,.bg-dark-1 a{
+    background-color: #282f44ff !important;
+    color: #ba2c73ff !important;
+}
+
+.bg-lite-1{
+    background-color: #ba2c73ff !important;
+}
+
+.bg-danger{
+    background-color: #282f44ff !important;
+    color: #ba2c73ff !important;    
+}
+
+.bg-success{
+    background-color: #282f44ff !important;
+    color: #ba2c73ff !important;        
+}
